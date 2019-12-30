@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codingelab.tutorial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tutorial"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GetUsersActivity"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResultActivity">
+        </activity>
+        <activity android:name=".ShowAll">
+        </activity>
+        <activity android:name=".delete">
+        </activity>
+        <activity android:name=".serach">
+        </activity>
+        <activity android:name=".Main3Activity"/>
+
+        <activity android:name=".UpdatephpdbActivity" />
+        <activity android:name=".SearchPhpActivity" />
+
+    </application>
+
+</manifest>
